@@ -497,13 +497,13 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
 
     // $ANTLR start "rule__XDockerInstruction__Alternatives"
-    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:200:1: rule__XDockerInstruction__Alternatives : ( ( ruleXDockerFrom ) | ( ruleXDockerMaintainer ) | ( ruleXDockerRun ) );
+    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:202:1: rule__XDockerInstruction__Alternatives : ( ( ruleXDockerFrom ) | ( ruleXDockerMaintainer ) | ( ruleXDockerRun ) );
     public final void rule__XDockerInstruction__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:204:1: ( ( ruleXDockerFrom ) | ( ruleXDockerMaintainer ) | ( ruleXDockerRun ) )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:206:1: ( ( ruleXDockerFrom ) | ( ruleXDockerMaintainer ) | ( ruleXDockerRun ) )
             int alt2=3;
             switch ( input.LA(1) ) {
             case RULE_FROM:
@@ -530,13 +530,13 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
             switch (alt2) {
                 case 1 :
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:205:1: ( ruleXDockerFrom )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:207:1: ( ruleXDockerFrom )
                     {
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:205:1: ( ruleXDockerFrom )
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:206:1: ruleXDockerFrom
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:207:1: ( ruleXDockerFrom )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:208:1: ruleXDockerFrom
                     {
                      before(grammarAccess.getXDockerInstructionAccess().getXDockerFromParserRuleCall_0()); 
-                    pushFollow(FOLLOW_ruleXDockerFrom_in_rule__XDockerInstruction__Alternatives371);
+                    pushFollow(FOLLOW_ruleXDockerFrom_in_rule__XDockerInstruction__Alternatives373);
                     ruleXDockerFrom();
 
                     state._fsp--;
@@ -549,13 +549,13 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
                     }
                     break;
                 case 2 :
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:211:6: ( ruleXDockerMaintainer )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:213:6: ( ruleXDockerMaintainer )
                     {
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:211:6: ( ruleXDockerMaintainer )
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:212:1: ruleXDockerMaintainer
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:213:6: ( ruleXDockerMaintainer )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:214:1: ruleXDockerMaintainer
                     {
                      before(grammarAccess.getXDockerInstructionAccess().getXDockerMaintainerParserRuleCall_1()); 
-                    pushFollow(FOLLOW_ruleXDockerMaintainer_in_rule__XDockerInstruction__Alternatives388);
+                    pushFollow(FOLLOW_ruleXDockerMaintainer_in_rule__XDockerInstruction__Alternatives390);
                     ruleXDockerMaintainer();
 
                     state._fsp--;
@@ -568,13 +568,13 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
                     }
                     break;
                 case 3 :
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:217:6: ( ruleXDockerRun )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:219:6: ( ruleXDockerRun )
                     {
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:217:6: ( ruleXDockerRun )
-                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:218:1: ruleXDockerRun
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:219:6: ( ruleXDockerRun )
+                    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:220:1: ruleXDockerRun
                     {
                      before(grammarAccess.getXDockerInstructionAccess().getXDockerRunParserRuleCall_2()); 
-                    pushFollow(FOLLOW_ruleXDockerRun_in_rule__XDockerInstruction__Alternatives405);
+                    pushFollow(FOLLOW_ruleXDockerRun_in_rule__XDockerInstruction__Alternatives407);
                     ruleXDockerRun();
 
                     state._fsp--;
@@ -604,20 +604,20 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
 
     // $ANTLR start "rule__XDockerModel__InstructionAssignment"
-    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:231:1: rule__XDockerModel__InstructionAssignment : ( ruleXDockerInstruction ) ;
+    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:234:1: rule__XDockerModel__InstructionAssignment : ( ruleXDockerInstruction ) ;
     public final void rule__XDockerModel__InstructionAssignment() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:235:1: ( ( ruleXDockerInstruction ) )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:236:1: ( ruleXDockerInstruction )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:238:1: ( ( ruleXDockerInstruction ) )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:239:1: ( ruleXDockerInstruction )
             {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:236:1: ( ruleXDockerInstruction )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:237:1: ruleXDockerInstruction
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:239:1: ( ruleXDockerInstruction )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:240:1: ruleXDockerInstruction
             {
              before(grammarAccess.getXDockerModelAccess().getInstructionXDockerInstructionParserRuleCall_0()); 
-            pushFollow(FOLLOW_ruleXDockerInstruction_in_rule__XDockerModel__InstructionAssignment440);
+            pushFollow(FOLLOW_ruleXDockerInstruction_in_rule__XDockerModel__InstructionAssignment443);
             ruleXDockerInstruction();
 
             state._fsp--;
@@ -645,20 +645,20 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
 
     // $ANTLR start "rule__XDockerFrom__NameAssignment"
-    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:246:1: rule__XDockerFrom__NameAssignment : ( RULE_FROM ) ;
+    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:249:1: rule__XDockerFrom__NameAssignment : ( RULE_FROM ) ;
     public final void rule__XDockerFrom__NameAssignment() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:250:1: ( ( RULE_FROM ) )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:251:1: ( RULE_FROM )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:253:1: ( ( RULE_FROM ) )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:254:1: ( RULE_FROM )
             {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:251:1: ( RULE_FROM )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:252:1: RULE_FROM
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:254:1: ( RULE_FROM )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:255:1: RULE_FROM
             {
              before(grammarAccess.getXDockerFromAccess().getNameFROMTerminalRuleCall_0()); 
-            match(input,RULE_FROM,FOLLOW_RULE_FROM_in_rule__XDockerFrom__NameAssignment471); 
+            match(input,RULE_FROM,FOLLOW_RULE_FROM_in_rule__XDockerFrom__NameAssignment474); 
              after(grammarAccess.getXDockerFromAccess().getNameFROMTerminalRuleCall_0()); 
 
             }
@@ -682,20 +682,20 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
 
     // $ANTLR start "rule__XDockerMaintainer__NameAssignment"
-    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:261:1: rule__XDockerMaintainer__NameAssignment : ( RULE_MAINTAINER ) ;
+    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:264:1: rule__XDockerMaintainer__NameAssignment : ( RULE_MAINTAINER ) ;
     public final void rule__XDockerMaintainer__NameAssignment() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:265:1: ( ( RULE_MAINTAINER ) )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:266:1: ( RULE_MAINTAINER )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:268:1: ( ( RULE_MAINTAINER ) )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:269:1: ( RULE_MAINTAINER )
             {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:266:1: ( RULE_MAINTAINER )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:267:1: RULE_MAINTAINER
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:269:1: ( RULE_MAINTAINER )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:270:1: RULE_MAINTAINER
             {
              before(grammarAccess.getXDockerMaintainerAccess().getNameMAINTAINERTerminalRuleCall_0()); 
-            match(input,RULE_MAINTAINER,FOLLOW_RULE_MAINTAINER_in_rule__XDockerMaintainer__NameAssignment502); 
+            match(input,RULE_MAINTAINER,FOLLOW_RULE_MAINTAINER_in_rule__XDockerMaintainer__NameAssignment505); 
              after(grammarAccess.getXDockerMaintainerAccess().getNameMAINTAINERTerminalRuleCall_0()); 
 
             }
@@ -719,20 +719,20 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
 
 
     // $ANTLR start "rule__XDockerRun__NameAssignment"
-    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:276:1: rule__XDockerRun__NameAssignment : ( RULE_RUN ) ;
+    // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:279:1: rule__XDockerRun__NameAssignment : ( RULE_RUN ) ;
     public final void rule__XDockerRun__NameAssignment() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:280:1: ( ( RULE_RUN ) )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:281:1: ( RULE_RUN )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:283:1: ( ( RULE_RUN ) )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:284:1: ( RULE_RUN )
             {
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:281:1: ( RULE_RUN )
-            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:282:1: RULE_RUN
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:284:1: ( RULE_RUN )
+            // ../de.laegler.xdocker.lang.ui/src-gen/de/laegler/xdocker/lang/ui/contentassist/antlr/internal/InternalXDockerLang.g:285:1: RULE_RUN
             {
              before(grammarAccess.getXDockerRunAccess().getNameRUNTerminalRuleCall_0()); 
-            match(input,RULE_RUN,FOLLOW_RULE_RUN_in_rule__XDockerRun__NameAssignment533); 
+            match(input,RULE_RUN,FOLLOW_RULE_RUN_in_rule__XDockerRun__NameAssignment536); 
              after(grammarAccess.getXDockerRunAccess().getNameRUNTerminalRuleCall_0()); 
 
             }
@@ -774,12 +774,12 @@ public class InternalXDockerLangParser extends AbstractInternalContentAssistPars
     public static final BitSet FOLLOW_ruleXDockerRun_in_entryRuleXDockerRun302 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleXDockerRun309 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__XDockerRun__NameAssignment_in_ruleXDockerRun335 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleXDockerFrom_in_rule__XDockerInstruction__Alternatives371 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleXDockerMaintainer_in_rule__XDockerInstruction__Alternatives388 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleXDockerRun_in_rule__XDockerInstruction__Alternatives405 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleXDockerInstruction_in_rule__XDockerModel__InstructionAssignment440 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_FROM_in_rule__XDockerFrom__NameAssignment471 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_MAINTAINER_in_rule__XDockerMaintainer__NameAssignment502 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_RUN_in_rule__XDockerRun__NameAssignment533 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleXDockerFrom_in_rule__XDockerInstruction__Alternatives373 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleXDockerMaintainer_in_rule__XDockerInstruction__Alternatives390 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleXDockerRun_in_rule__XDockerInstruction__Alternatives407 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleXDockerInstruction_in_rule__XDockerModel__InstructionAssignment443 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_FROM_in_rule__XDockerFrom__NameAssignment474 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_MAINTAINER_in_rule__XDockerMaintainer__NameAssignment505 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_RUN_in_rule__XDockerRun__NameAssignment536 = new BitSet(new long[]{0x0000000000000002L});
 
 }

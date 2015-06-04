@@ -32,4 +32,5 @@ Export-Package: de.laegler.xdocker.lang,
  de.laegler.xdocker.lang.validation,
  de.laegler.xdocker.lang.scoping,
  de.laegler.xdocker.lang.generator,
- de.laegler.xdocker.lang.formatting
+ de.laegler.xdocker.lang.formatting,
+ de.laegler.xdocker.lang.xDockerLang.util

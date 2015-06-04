@@ -38,6 +38,7 @@ public class XDockerLangParser extends AbstractContentAssistParser {
 				private static final long serialVersionUID = 1L;
 				{
 					put(grammarAccess.getXDockerInstructionAccess().getAlternatives(), "rule__XDockerInstruction__Alternatives");
+					put(grammarAccess.getOptionalTextAccess().getAlternatives(), "rule__OptionalText__Alternatives");
 					put(grammarAccess.getXDockerModelAccess().getInstructionAssignment(), "rule__XDockerModel__InstructionAssignment");
 					put(grammarAccess.getXDockerFromAccess().getNameAssignment(), "rule__XDockerFrom__NameAssignment");
 					put(grammarAccess.getXDockerMaintainerAccess().getNameAssignment(), "rule__XDockerMaintainer__NameAssignment");

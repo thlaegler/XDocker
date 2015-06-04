@@ -106,6 +106,62 @@ public class XDockerLangGrammarAccess extends AbstractGrammarElementFinder {
 		//RUN
 		public RuleCall getNameRUNTerminalRuleCall_0() { return cNameRUNTerminalRuleCall_0; }
 	}
+
+	public class OptionalTextElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "OptionalText");
+		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
+		private final RuleCall cTEXTTerminalRuleCall_0 = (RuleCall)cAlternatives.eContents().get(0);
+		private final RuleCall cCODETerminalRuleCall_1 = (RuleCall)cAlternatives.eContents().get(1);
+		
+		////CMD:
+		////    'CMD' value=TEXT
+		////;
+		////LABEL:
+		////    'LABEL'
+		////;
+		////EXPOSE:
+		////    'EXPOSE'
+		////;
+		////
+		////ENV:
+		////    'ENV'
+		////;
+		////
+		////ADD:
+		////    'ADD'
+		////;
+		////
+		////COPY:
+		////    'COPY'
+		////;
+		////ENTRYPOINT:
+		////    'ENTRYPOINT'
+		////;
+		////VOLUME:
+		////    'VOLUME'
+		////;
+		////USER:
+		////    'USER'
+		////;
+		////WORKDIR:
+		////    'WORKDIR'
+		////;
+		////ONBUILD:
+		////    'ONBUILD'
+		////;
+		//OptionalText returns ecore::EString:
+		//	TEXT | CODE;
+		public ParserRule getRule() { return rule; }
+
+		//TEXT | CODE
+		public Alternatives getAlternatives() { return cAlternatives; }
+
+		//TEXT
+		public RuleCall getTEXTTerminalRuleCall_0() { return cTEXTTerminalRuleCall_0; }
+
+		//CODE
+		public RuleCall getCODETerminalRuleCall_1() { return cCODETerminalRuleCall_1; }
+	}
 	
 	
 	private final XDockerModelElements pXDockerModel;
@@ -113,6 +169,7 @@ public class XDockerLangGrammarAccess extends AbstractGrammarElementFinder {
 	private final XDockerFromElements pXDockerFrom;
 	private final XDockerMaintainerElements pXDockerMaintainer;
 	private final XDockerRunElements pXDockerRun;
+	private final OptionalTextElements pOptionalText;
 	private final TerminalRule tFROM;
 	private final TerminalRule tMAINTAINER;
 	private final TerminalRule tRUN;
@@ -153,6 +210,7 @@ public class XDockerLangGrammarAccess extends AbstractGrammarElementFinder {
 		this.pXDockerFrom = new XDockerFromElements();
 		this.pXDockerMaintainer = new XDockerMaintainerElements();
 		this.pXDockerRun = new XDockerRunElements();
+		this.pOptionalText = new OptionalTextElements();
 		this.tFROM = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "FROM");
 		this.tMAINTAINER = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "MAINTAINER");
 		this.tRUN = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "RUN");
@@ -294,6 +352,16 @@ public class XDockerLangGrammarAccess extends AbstractGrammarElementFinder {
 	////ONBUILD:
 	////    'ONBUILD'
 	////;
+	//OptionalText returns ecore::EString:
+	//	TEXT | CODE;
+	public OptionalTextElements getOptionalTextAccess() {
+		return pOptionalText;
+	}
+	
+	public ParserRule getOptionalTextRule() {
+		return getOptionalTextAccess().getRule();
+	}
+
 	//terminal FROM:
 	//	"FROM" NNL* NL;
 	public TerminalRule getFROMRule() {

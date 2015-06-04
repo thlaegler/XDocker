@@ -197,6 +197,8 @@ finally {
 
 
 
+
+
 rule__XDockerInstruction__Alternatives
     @init {
 		int stackSize = keepStackSize();
@@ -224,6 +226,7 @@ rule__XDockerInstruction__Alternatives
 finally {
 	restoreStackSize(stackSize);
 }
+
 
 
 
